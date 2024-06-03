@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "name": "my-da_0.0.1",
+      "label": "my-da_0.0.1",
+      "product_kind": "solution",
+      "version": "0.0.1",
+      "tags": [
+        "network_vpc",
+        "Technology"
+      ],
+      "keywords": [
+        "vpc"
+      ],
+      "short_description": "A simple deployable architecture",
+      "long_description": "A simple deployable architecture to use as a starting point and test things around.",
+      "offering_docs_url": "https://github.com/david-pa/simple-da/raw/my-da_0.0.1_0.0.1/README.md",
+      "support_details": "This is a demonstration and no official support is given.",
+      "flavors": [
+        {
+          "label": "Standard",
+          "name": "standard-da",
+          "install_type": "fullstack",
+          "working_directory": "./",
+          "licenses": [
+            {
+              "name": "Apache License 2.0",
+              "url": "https://github.com/david-pa/simple-da/raw/my-da_0.0.1_0.0.1/LICENSE"
+            }
+          ],
+          "configuration": [],
+          "outputs": [],
+          "iam_permissions": [],
+          "release_notes_url": "https://github.com/david-pa/simple-da/raw/my-da_0.0.1_0.0.1/CHANGELOG.md",
+          "architecture": {
+            "diagrams": [
+              {
+                "diagram": {
+                  "caption": "Architecture diagram",
+                  "url": "https://github.com/david-pa/simple-da/raw/my-da_0.0.1_0.0.1/placeholder-arch-diagram.svg",
+                  "metadata": []
+                },
+                "description": "A simple deployable architecture."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

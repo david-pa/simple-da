@@ -1,0 +1,60 @@
+# This file provides input values for creating and validating a Deployable Architecture (DA) product in an IBM Cloud private catalog.
+# This is used in combination with the generated catalog manifest JSON file, ibm_catalog.json.
+# After the properties are updated, right-click on this file to create or validate a DA product in a private catalog without going through the interactive prompts.
+
+# IMPORTANT: This file will be modified automatically. Property values may be overriden and additional user-provided comments will be lost.
+
+# #############################
+# Repository-related properties
+# -----------------------------
+# repository.releaseName: The name of the remote repository release that will contain the catalog manifest and related files when sharing the DA. During DA validation, a development branch named dev_<releaseName> will be created.
+# repository.repositoryRemote: The name of the remote where the release or development branch will be pushed.
+
+# ##########################
+# Catalog-related properties
+# --------------------------
+# catalog.privateCatalogName: The name of the private catalog where the product will be added. If an existing catalog with the same name does not exist, it will be created.
+# catalog.privateCatalogDescription: A description to be used when creating a new catalog.
+# catalog.offeringTargetVersion: The version of the product that will be added. If an existing version of the same install kind already exists, an error will be thrown.
+# catalog.offeringArchDiagramPath: The relative path to the architectural diagram to use for the product version.
+# catalog.offeringReleaseNotesPath: The relative path to the documentation for the product version.
+# catalog.offeringLicensePath: The relative path to the license for the product version.
+# catalog.offeringChangelogPath: The relative path to the change log for the product version.
+# catalog.devVersionId: When validating a DA, the locator ID of the DA product in the private catalog made from a development branch.
+# catalog.publishedVersionId: When sharing a DA, the locator ID of the DA product in the private catalog made from a release.
+
+# ###########################
+# Projects-related properties
+# ---------------------------
+# projectName: The name of the project used for DA validation.
+# projectId: The ID of the project used for DA validation.
+# resourceGroupId: The ID of the resource group of the project used for DA validation.
+# configId: The ID of the project configuration used for DA validation.
+# configName: The name of the project configuration used for DA validation.
+
+repository:
+  repositoryRemote: origin
+  branchName: dev_my-da_0.0.1
+catalog:
+  privateCatalogName: my-private-catalog
+  privateCatalogDescription: Created by IBM Cloud Deployable Architecture Builder
+  offeringTargetVersion: 0.0.1
+  offeringProductName: my-da
+  offeringFlavorName: standard-da
+  offeringFlavorInstallType: fullstack
+  offeringDocsPath: ""
+  offeringArchDiagramPath: placeholder-arch-diagram.svg
+  offeringLicensePath: ""
+  offeringReleaseNotesPath: ""
+  catalogId: ""
+  offeringId: c00ffc3d-fb2c-4a01-a70d-573115d01e21
+  devVersionId: ""
+  publishedVersionId: 5df662f1-89a9-40d0-94b1-2e304c923c84.dd075abc-4d94-4a52-a53a-4b2d781df6b8
+schematics:
+  schematicsWorkspaceId: ""
+projects:
+  projectName: ""
+  projectId: ""
+  resourceGroupId: ""
+  configId: ""
+  configName: ""

@@ -34,11 +34,11 @@
 
 repository:
   repositoryRemote: origin
-  branchName: dev_my-da_0.0.7
+  branchName: dev_my-da_0.0.4
 catalog:
   privateCatalogName: my-private-catalog
   privateCatalogDescription: Created by EPX VS Code Extension POC
-  offeringTargetVersion: 0.0.7
+  offeringTargetVersion: 0.0.4
   offeringProductName: my-da
   offeringFlavorName: standard-da
   offeringFlavorInstallType: fullstack
@@ -48,7 +48,7 @@ catalog:
   offeringReleaseNotesPath: CHANGELOG.md
   catalogId: 5df662f1-89a9-40d0-94b1-2e304c923c84
   offeringId: c00ffc3d-fb2c-4a01-a70d-573115d01e21
-  devVersionId: 5df662f1-89a9-40d0-94b1-2e304c923c84.7b832614-5511-4a2a-b4e3-d23710ac944c
+  devVersionId: ""
   publishedVersionId: ""
 schematics:
   schematicsWorkspaceId: us-south.workspace.projects-service.19e9fbba

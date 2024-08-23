@@ -4,7 +4,7 @@
       "name": "my-da",
       "label": "my-da",
       "product_kind": "solution",
-      "version": "0.0.2",
+      "version": "0.0.12",
       "tags": [
         "network_vpc",
         "Technology"
@@ -28,28 +28,8 @@
               "url": "https://github.com/david-pa/simple-da/raw/dev_my-da_0.0.2/LICENSE"
             }
           ],
-          "configuration": [
-            {
-              "key": "prefix",
-              "required": false
-            },
-            {
-              "key": "region",
-              "required": false,
-              "default_value": "us-south"
-            },
-            {
-              "key": "tags",
-              "required": false,
-              "default_value": "[\"terraform\", \"simple-da\"]"
-            }
-          ],
-          "outputs": [
-            {
-              "key": "vpc_id",
-              "description": "ID of the created VPC"
-            }
-          ],
+          "configuration": [],
+          "outputs": [],
           "iam_permissions": [],
           "release_notes_url": "https://github.com/david-pa/simple-da/raw/dev_my-da_0.0.2/CHANGELOG.md",
           "architecture": {

@@ -34,27 +34,27 @@
 
 repository:
   repositoryRemote: origin
-  branchName: dev_my-da_0.0.2
+  branchName: dev_my-da_0.0.12
 catalog:
   privateCatalogName: my-private-catalog
-  privateCatalogDescription: Created by EPX VS Code Extension POC
-  offeringTargetVersion: 0.0.2
+  privateCatalogDescription: Created by IBM Cloud Deployable Architecture Builder
+  offeringTargetVersion: 0.0.12
   offeringProductName: my-da
-  offeringFlavorName: fullstack
+  offeringFlavorName: standard-da
   offeringFlavorInstallType: fullstack
-  offeringDocsPath: README.md
+  offeringDocsPath: ""
   offeringArchDiagramPath: placeholder-arch-diagram.svg
-  offeringLicensePath: LICENSE
-  offeringReleaseNotesPath: CHANGELOG.md
-  catalogId: 5df662f1-89a9-40d0-94b1-2e304c923c84
+  offeringLicensePath: ""
+  offeringReleaseNotesPath: ""
+  catalogId: ""
   offeringId: c00ffc3d-fb2c-4a01-a70d-573115d01e21
   devVersionId: ""
-  publishedVersionId: ""
+  publishedVersionId: 5df662f1-89a9-40d0-94b1-2e304c923c84.51b2bed4-10fc-441d-9416-7e3d17d3d626
 schematics:
-  schematicsWorkspaceId: us-south.workspace.projects-service.39d605ad
+  schematicsWorkspaceId: ""
 projects:
-  projectName: test-project
-  projectId: 7350bfed-0eb2-4da3-b1bd-cf8211173053
-  resourceGroupId: d92c942c8a384119822aac197f9826a6
-  configId: a58a6e7a-896a-4b8c-9cc6-566817683440
-  configName: my-da-0-0-1-standard-da-project_7350bfed-0eb2-4da3-b1bd-cf8211173053-full
+  projectName: ""
+  projectId: ""
+  resourceGroupId: ""
+  configId: ""
+  configName: ""

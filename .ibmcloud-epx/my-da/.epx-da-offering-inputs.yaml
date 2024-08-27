@@ -34,22 +34,22 @@
 
 repository:
   repositoryRemote: origin
-  branchName: dev_my-da_0.0.1
+  branchName: dev_my-da_0.0.13
 catalog:
   privateCatalogName: my-private-catalog
-  privateCatalogDescription: Created by IBM Cloud Deployable Architecture Builder
-  offeringTargetVersion: 0.0.1
+  privateCatalogDescription: Created by EPX VS Code Extension POC
+  offeringTargetVersion: 0.0.13
   offeringProductName: my-da
-  offeringFlavorName: standard-da
+  offeringFlavorName: fullstack
   offeringFlavorInstallType: fullstack
-  offeringDocsPath: ""
+  offeringDocsPath: README.md
   offeringArchDiagramPath: placeholder-arch-diagram.svg
-  offeringLicensePath: ""
-  offeringReleaseNotesPath: ""
-  catalogId: ""
+  offeringLicensePath: LICENSE
+  offeringReleaseNotesPath: CHANGELOG.md
+  catalogId: 5df662f1-89a9-40d0-94b1-2e304c923c84
   offeringId: c00ffc3d-fb2c-4a01-a70d-573115d01e21
   devVersionId: ""
-  publishedVersionId: 5df662f1-89a9-40d0-94b1-2e304c923c84.dd075abc-4d94-4a52-a53a-4b2d781df6b8
+  publishedVersionId: ""
 schematics:
   schematicsWorkspaceId: us-south.workspace.projects-service.39d605ad
 projects:

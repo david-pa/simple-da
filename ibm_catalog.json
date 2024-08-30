@@ -30,8 +30,7 @@
           "configuration": [
             {
               "key": "prefix",
-              "required": false,
-              "default_value": "sda16"
+              "required": false
             },
             {
               "key": "region",

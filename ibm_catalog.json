@@ -28,8 +28,28 @@
               "url": "https://github.com/david-pa/simple-da/raw/main/LICENSE"
             }
           ],
-          "configuration": [],
-          "outputs": [],
+          "configuration": [
+            {
+              "key": "prefix",
+              "required": false
+            },
+            {
+              "key": "region",
+              "required": false,
+              "default_value": "us-south"
+            },
+            {
+              "key": "tags",
+              "required": false,
+              "default_value": "[\"terraform\", \"simple-da\"]"
+            }
+          ],
+          "outputs": [
+            {
+              "key": "vpc_id",
+              "description": "ID of the created VPC"
+            }
+          ],
           "iam_permissions": [],
           "release_notes_url": "https://github.com/david-pa/simple-da/raw/main/CHANGELOG.md",
           "architecture": {

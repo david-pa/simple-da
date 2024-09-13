@@ -4,7 +4,7 @@
       "name": "simple-da",
       "label": "Simple deployable architecture",
       "product_kind": "solution",
-      "version": "0.0.24",
+      "version": "0.0.22",
       "tags": [
         "network_vpc",
         "Technology"
@@ -14,7 +14,7 @@
       ],
       "short_description": "A simple deployable architecture",
       "long_description": "A simple deployable architecture to use as a starting point and test things around.",
-      "offering_docs_url": "https://github.com/david-pa/simple-da/raw/dev_simple-da_0.0.24/README.md",
+      "offering_docs_url": "https://github.com/david-pa/simple-da/raw/simple-da-0.0.22/README.md",
       "support_details": "This is a demonstration and no official support is given.",
       "flavors": [
         {
@@ -24,7 +24,7 @@
           "licenses": [
             {
               "name": "Apache License 2.0",
-              "url": "https://github.com/david-pa/simple-da/raw/dev_simple-da_0.0.24/LICENSE"
+              "url": "https://github.com/david-pa/simple-da/raw/simple-da-0.0.22/LICENSE"
             }
           ],
           "configuration": [
@@ -77,13 +77,13 @@
               ]
             }
           ],
-          "release_notes_url": "https://github.com/david-pa/simple-da/raw/dev_simple-da_0.0.24/CHANGELOG.md",
+          "release_notes_url": "https://github.com/david-pa/simple-da/raw/simple-da-0.0.22/CHANGELOG.md",
           "architecture": {
             "diagrams": [
               {
                 "diagram": {
                   "caption": "Architecture diagram",
-                  "url": "https://github.com/david-pa/simple-da/raw/dev_simple-da_0.0.24/placeholder-arch-diagram.svg",
+                  "url": "https://github.com/david-pa/simple-da/raw/simple-da-0.0.22/placeholder-arch-diagram.svg",
                   "metadata": []
                 },
                 "description": "A simple deployable architecture."
